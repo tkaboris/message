@@ -21,7 +21,7 @@
 
 set :output, "log/cron.log"
 env :TZ, "UTC"
-env :PATH, "$PATH:/home/rails/.rbenv/shims:/home/rails/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+env :PATH, "$PATH:/home/deploy/.rbenv/shims:/home/deploy/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
 
 every :hour do
   runner "Message.send_messages_to_listeners"
