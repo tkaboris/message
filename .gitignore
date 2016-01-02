@@ -19,3 +19,4 @@
 #Ignore env config file
 config/application.yml
 config/secrets.yml
+config/database.yml
