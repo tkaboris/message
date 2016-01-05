@@ -10,7 +10,7 @@ set :branch, "master"
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
-server '104.131.105.98', user: 'deploy', roles: %w{app db web}
+server '45.55.140.61', user: 'deploy', roles: %w{app db web}
 # server 'example.com', user: 'deploy', roles: %w{app web}, other_property: :other_value
 # server 'db.example.com', user: 'deploy', roles: %w{db}
 

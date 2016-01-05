@@ -8,7 +8,7 @@ set :repo_url, 'git@github.com:tkaboris/message.git'
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
-set :deploy_to, '/home/deploy/app/message'
+set :deploy_to, '/home/deploy/app/messagefollower'
 
 # Default tmp_dir directory is /var/www/tmp
 set :tmp_dir, "/home/deploy/tmp"
